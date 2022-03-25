@@ -1,0 +1,31 @@
+{
+  "name": "api-pagos",
+  "version": "1.0.0",
+  "description": "App fot get payments of clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec  babel-node   api/src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "rotating-file-stream": "^3.0.3",
+    "sequelize": "^6.17.0",
+    "passport": "^0.5.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-node": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1"
+  }
+}
